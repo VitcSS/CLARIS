@@ -1,0 +1,10 @@
+\begin{tabular}{llllll}
+\toprule
+Abordagem & Natureza da Explicabilidade & Fidelidade / Grounding & Aderência a Negócio & Raciocínio Contrafactual & Vigilância de MLOps \\
+\midrule
+SHAP Isolado (Local) & Pesos numéricos marginais (valores brutos) & 1.00 (Determinístico) & Baixa (Gráficos técnicos) & Não (Apenas importância estática) & Inexistente \\
+CBR Tradicional & Casos tabulares análogos brutos & 1.00 (Determinístico) & Moderada (Inspeção caso a caso) & Parcial (Sem vetor de convergência) & Inexistente \\
+Vanilla LLM (Zero-Shot) & Narrativa em linguagem natural livre & Variável (Risco de Alucinação > 0) & Alta (Fluidez semântica) & Alucinado (Não validado em dados) & Inexistente \\
+CLARIS (Neurosimbólico) & Síntese textual vinculada a contrato estrito & 1.00 (Zero-Hallucination via Pydantic) & Alta (Dossiês setoriais contextualizados) & Sim (Centróides de divergência máxima) & Sim (Sensibilidade dual Euclidiana/Cosseno) \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,13 @@
+Tipo,Variável,Instância,Referência
+Âncora,Estimativa Consolidada de Risco Externo,89.0,85.8
+Âncora,Meses desde a Consulta de Crédito Anterior,5.0,10.2
+Âncora,Média de Duração de Resolução de Linhas de Crédito,96.0,84.6
+Âncora,Taxa de Utilização de Limite Rotativo (%),18.0,10.6
+Âncora,Percentual de Linhas em Situação Legal,100.0,100.0
+Âncora,Meses desde a Abertura da Linha Mais Recente,1.0,8.0
+Contrafactual,Meses desde a Abertura da Linha Mais Antiga,209.0,319.0
+Contrafactual,Percentual de Linhas com Saldo Devedor,71.0,46.5
+Contrafactual,Taxa de Utilização de Financiamento Parcelado (%),59.0,74.0
+Contrafactual,Meses desde a Abertura da Linha Mais Recente,1.0,15.5
+Contrafactual,Percentual de Linhas com Pagamento Parcelado,38.0,25.5
+Contrafactual,Taxa de Utilização de Limite Rotativo (%),18.0,6.0
